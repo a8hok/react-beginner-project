@@ -1,0 +1,46 @@
+.user-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.user-container ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.user-container ul a {
+    text-decoration: none;
+}
+.user-container li {
+    width: 400px;
+    background: cornflowerblue;
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.fetch-container {
+    height: 50px;
+    padding: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

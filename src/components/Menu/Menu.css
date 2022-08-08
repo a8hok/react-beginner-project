@@ -1,0 +1,27 @@
+.menu-logo--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.menu-container {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 24px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-container a:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.img-container {
+    width: 81px;
+    border-radius: 4px;
+}
